@@ -1,0 +1,168 @@
+{
+  "Region" : "eastus",
+  "Credentials" : "NOT-SET",
+  "SubnetId" : "NDmv4_Cluster/ccvnet/cluster",
+  "UsePublicNetwork" : true,
+  "ExecuteNodesPublic" : false,
+  "EnableAccelNet": true,
+  "NodeNameIsHostname" : true,
+  "NodeNamePrefix" : "Cluster Prefix",
+  "ReturnProxy" : false,
+  "ManagedServiceIdentity": "NOT-SET",
+  "SchedulerMachineType" : "Standard_D32as_v4",
+  "SchedulerImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
+  "SchedulerHostName" : "Cluster Prefix",
+  "SchedulerClusterInitSpecs" : {
+    "cc_slurm_pyxis:default:1.0.0" : {
+      "Order" : 10000,
+      "Spec" : "default",
+      "Name" : "cc_slurm_pyxis:default:1.0.0",
+      "Project" : "cc_slurm_pyxis",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_slurm_nhc:default:1.0.0" : {
+      "Order" : 10100,
+      "Spec" : "default",
+      "Name" : "cc_slurm_nhc:default:1.0.0",
+      "Project" : "cc_slurm_nhc",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_misc_ubuntu:default:1.0.0" : {
+      "Order" : 10200,
+      "Spec" : "default",
+      "Name" : "cc_misc_ubuntu:default:1.0.0",
+      "Project" : "cc_misc_ubuntu",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_sunrpc_max_slots:default:1.0.0" : {
+      "Order" : 10300,
+      "Spec" : "default",
+      "Name" : "cc_sunrpc_max_slots:default:1.0.0",
+      "Project" : "cc_sunrpc_max_slots",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_job_preempt:default:1.0.0" : {
+      "Order" : 10400,
+      "Spec" : "default",
+      "Name" : "cc_job_preempt:default:1.0.0",
+      "Project" : "cc_job_preempt",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_quota_check:default:1.0.0" : {
+      "Order" : 10500,
+      "Spec" : "default",
+      "Name" : "cc_quota_check:default:1.0.0",
+      "Project" : "cc_quota_check",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    }
+  },
+  "Autoscale" : false,
+  "NFSSchedDisable" : false,
+  "slurm" : null,
+  "configuration_slurm_version" : "20.11.7-1",
+  "configuration_slurm_ha_enabled" : false,
+  "configuration_slurm_shutdown_policy" : "Terminate",
+  "configuration_slurm_accounting_enabled" : true,
+  "configuration_slurm_accounting_url" : "NOT-SET",
+  "configuration_slurm_accounting_user" : "NOT-SET",
+  "configuration_slurm_accounting_password" : "NOT-SET",
+  "additional_slurm_config" : "HealthCheckProgram=/usr/sbin/nhc\nHealthCheckInterval=1200\nHealthCheckNodeState=IDLE\n",
+  "loginMachineType" : "Standard_D32as_v4",
+  "NumberLoginNodes" : 2,
+  "LoginClusterInitSpecs": {
+    "cc_limits:default:1.0.0" : {
+      "Order" : 10000,
+      "Spec" : "default",
+      "Name" : "cc_limits:default:1.0.0",
+      "Project" : "cc_limits",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_misc_ubuntu:default:1.0.0" : {
+      "Order" : 10100,
+      "Spec" : "default",
+      "Name" : "cc_misc_ubuntu:default:1.0.0",
+      "Project" : "cc_misc_ubuntu",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_sunrpc_max_slots:default:1.0.0" : {
+      "Order" : 10200,
+      "Spec" : "default",
+      "Name" : "cc_sunrpc_max_slots:default:1.0.0",
+      "Project" : "cc_sunrpc_max_slots",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    }
+  },
+  "HPCImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
+  "HPCMachineType" : "Standard_ND96amsr_A100_v4",
+  "MaxHPCExecuteCoreCount" : 19776,
+  "HPCMaxScalesetSize" : 100,
+  "HPCMemoryDampen": 8,
+  "HTCImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
+  "HPCClusterInitSpecs" : {
+    "cc_slurm_pyxis:default:1.0.0" : {
+      "Order" : 10000,
+      "Spec" : "default",
+      "Name" : "cc_slurm_pyxis:default:1.0.0",
+      "Project" : "cc_slurm_pyxis",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_slurm_nhc:default:1.0.0" : {
+      "Order" : 10100,
+      "Spec" : "default",
+      "Name" : "cc_slurm_nhc:default:1.0.0",
+      "Project" : "cc_slurm_nhc",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_misc_ndv4:default:1.0.0" : {
+      "Order" : 10200,
+      "Spec" : "default",
+      "Name" : "cc_misc_ndv4:default:1.0.0",
+      "Project" : "cc_misc_ndv4",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_sunrpc_max_slots:default:1.0.0" : {
+      "Order" : 10300,
+      "Spec" : "default",
+      "Name" : "cc_sunrpc_max_slots:default:1.0.0",
+      "Project" : "cc_sunrpc_max_slots",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    },
+    "cc_inflectionai:default:1.0.0" : {
+      "Order" : 10400,
+      "Spec" : "default",
+      "Name" : "cc_inflectionai:default:1.0.0",
+      "Project" : "cc_inflectionai",
+      "Locker" : "Inflection Azure Subscription-storage",
+      "Version" : "1.0.0"
+    }
+  },
+  "HTCMachineType" : "Standard_E96as_v4",
+  "MaxHTCExecuteCoreCount" : 34960,
+  "HTCUseLowPrio" : true,
+  "HTCSpotMaxPrice" : -1,
+  "HTCClusterInitSpecs" : null,
+  "NFSAddress" : "NOT-SET",
+  "NFSType" : "External",
+  "NFSSharedExportPath" : "/shared",
+  "NFSSharedMountOptions" : "rw,hard,rsize=65536,wsize=65536,vers=3,tcp",
+  "About shared" : null,
+  "AdditionalNAS" : true,
+  "AdditonalNFSAddress" : "NOT-SET",
+  "AdditionalNFSExportPath" : "NOT-SET",
+  "AdditionalNFSMountOptions" : "rw,hard,rsize=65536,wsize=65536,vers=3,tcp",
+  "AdditionalNFSMountPoint" : "/scratch",
+  "Additional NFS Mount Readme" : null
+}
