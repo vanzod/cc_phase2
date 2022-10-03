@@ -1,7 +1,7 @@
 {
   "Region" : "eastus",
   "Credentials" : "NOT-SET",
-  "SubnetId" : "NDmv4_Cluster/ccvnet/cluster",
+  "SubnetId" : "NOT-SET",
   "UsePublicNetwork" : true,
   "ExecuteNodesPublic" : false,
   "EnableAccelNet": true,
@@ -72,7 +72,7 @@
   "configuration_slurm_accounting_url" : "NOT-SET",
   "configuration_slurm_accounting_user" : "NOT-SET",
   "configuration_slurm_accounting_password" : "NOT-SET",
-  "additional_slurm_config" : "HealthCheckProgram=/usr/sbin/nhc\nHealthCheckInterval=1200\nHealthCheckNodeState=IDLE\n",
+  "additional_slurm_config" : "",
   "loginMachineType" : "Standard_D32as_v4",
   "NumberLoginNodes" : 2,
   "LoginClusterInitSpecs": {
