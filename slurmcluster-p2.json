@@ -104,7 +104,7 @@
   "HPCImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
   "HPCMachineType" : "Standard_ND96amsr_A100_v4",
   "MaxHPCExecuteCoreCount" : 19776,
-  "HPCMaxScalesetSize" : 100,
+  "HPCMaxScalesetSize" : 300,
   "HPCMemoryDampen": 8,
   "HTCImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
   "HPCClusterInitSpecs" : {
