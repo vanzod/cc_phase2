@@ -70,6 +70,10 @@ Autoscale = $Autoscale
         export_path = ${ifThenElse(AdditionalNAS, AdditionalNFSExportPath, undefined)}
         options = ${ifThenElse(AdditionalNAS, AdditionalNFSMountOptions, undefined)}
 
+        [[[volume boot]]]
+        size = 60
+        StorageAccountType = Premium_LRS
+
     [[node scheduler]]
     MachineType = $SchedulerMachineType
     ImageName = $SchedulerImageName
