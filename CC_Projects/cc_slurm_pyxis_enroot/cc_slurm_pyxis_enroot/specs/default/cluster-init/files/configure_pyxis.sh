@@ -1,8 +1,6 @@
 #!/bin/bash
 
-function is_slurm_controller() {
-   systemctl list-units --full -all | grep -q slurmctld
-}
+source $CYCLECLOUD_SPEC_PATH/files/common_functions.sh
 
 function link_plugstack() {
    ln -s /sched/plugstack.conf /etc/slurm/plugstack.conf
