@@ -13,11 +13,11 @@
   "SchedulerImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
   "SchedulerHostName" : "Cluster Prefix",
   "SchedulerClusterInitSpecs" : {
-    "cc_slurm_pyxis:default:1.0.0" : {
+    "cc_slurm_pyxis_enroot:default:1.0.0" : {
       "Order" : 10000,
       "Spec" : "default",
-      "Name" : "cc_slurm_pyxis:default:1.0.0",
-      "Project" : "cc_slurm_pyxis",
+      "Name" : "cc_slurm_pyxis_enroot:default:1.0.0",
+      "Project" : "cc_slurm_pyxis_enroot",
       "Locker" : "Inflection Azure Subscription-storage",
       "Version" : "1.0.0"
     },
@@ -107,11 +107,11 @@
   "HPCMaxScalesetSize" : 300,
   "HPCMemoryDampen": 8,
   "HPCClusterInitSpecs" : {
-    "cc_slurm_pyxis:default:1.0.0" : {
+    "cc_slurm_pyxis_enroot:default:1.0.0" : {
       "Order" : 10000,
       "Spec" : "default",
-      "Name" : "cc_slurm_pyxis:default:1.0.0",
-      "Project" : "cc_slurm_pyxis",
+      "Name" : "cc_slurm_pyxis_enroot:default:1.0.0",
+      "Project" : "cc_slurm_pyxis_enroot",
       "Locker" : "Inflection Azure Subscription-storage",
       "Version" : "1.0.0"
     },
