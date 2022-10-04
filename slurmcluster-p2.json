@@ -106,7 +106,6 @@
   "MaxHPCExecuteCoreCount" : 19776,
   "HPCMaxScalesetSize" : 300,
   "HPCMemoryDampen": 8,
-  "HTCImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
   "HPCClusterInitSpecs" : {
     "cc_slurm_pyxis:default:1.0.0" : {
       "Order" : 10000,
@@ -149,11 +148,6 @@
       "Version" : "1.0.0"
     }
   },
-  "HTCMachineType" : "Standard_E96as_v4",
-  "MaxHTCExecuteCoreCount" : 34960,
-  "HTCUseLowPrio" : true,
-  "HTCSpotMaxPrice" : -1,
-  "HTCClusterInitSpecs" : null,
   "NFSAddress" : "NOT-SET",
   "NFSType" : "External",
   "NFSSharedExportPath" : "/shared",
