@@ -72,7 +72,7 @@
   "configuration_slurm_accounting_url" : "NOT-SET",
   "configuration_slurm_accounting_user" : "NOT-SET",
   "configuration_slurm_accounting_password" : "NOT-SET",
-  "additional_slurm_config" : "",
+  "additional_slurm_config" : "SuspendTime=-1",
   "loginMachineType" : "Standard_D32as_v4",
   "NumberLoginNodes" : 2,
   "LoginClusterInitSpecs": {
