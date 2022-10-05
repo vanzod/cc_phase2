@@ -1,5 +1,5 @@
 {
-  "Region" : "eastus",
+  "Region" : "NOT-SET",
   "Credentials" : "NOT-SET",
   "SubnetId" : "NOT-SET",
   "UsePublicNetwork" : true,
@@ -18,7 +18,7 @@
       "Spec" : "default",
       "Name" : "cc_slurm_pyxis_enroot:default:1.0.0",
       "Project" : "cc_slurm_pyxis_enroot",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_slurm_nhc:default:1.0.0" : {
@@ -26,7 +26,7 @@
       "Spec" : "default",
       "Name" : "cc_slurm_nhc:default:1.0.0",
       "Project" : "cc_slurm_nhc",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_misc_ubuntu:default:1.0.0" : {
@@ -34,7 +34,7 @@
       "Spec" : "default",
       "Name" : "cc_misc_ubuntu:default:1.0.0",
       "Project" : "cc_misc_ubuntu",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_sunrpc_max_slots:default:1.0.0" : {
@@ -42,7 +42,7 @@
       "Spec" : "default",
       "Name" : "cc_sunrpc_max_slots:default:1.0.0",
       "Project" : "cc_sunrpc_max_slots",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_job_preempt:default:1.0.0" : {
@@ -50,7 +50,7 @@
       "Spec" : "default",
       "Name" : "cc_job_preempt:default:1.0.0",
       "Project" : "cc_job_preempt",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_quota_check:default:1.0.0" : {
@@ -58,7 +58,7 @@
       "Spec" : "default",
       "Name" : "cc_quota_check:default:1.0.0",
       "Project" : "cc_quota_check",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     }
   },
@@ -81,7 +81,7 @@
       "Spec" : "default",
       "Name" : "cc_limits:default:1.0.0",
       "Project" : "cc_limits",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_misc_ubuntu:default:1.0.0" : {
@@ -89,7 +89,7 @@
       "Spec" : "default",
       "Name" : "cc_misc_ubuntu:default:1.0.0",
       "Project" : "cc_misc_ubuntu",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_sunrpc_max_slots:default:1.0.0" : {
@@ -97,7 +97,7 @@
       "Spec" : "default",
       "Name" : "cc_sunrpc_max_slots:default:1.0.0",
       "Project" : "cc_sunrpc_max_slots",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     }
   },
@@ -112,7 +112,7 @@
       "Spec" : "default",
       "Name" : "cc_slurm_pyxis_enroot:default:1.0.0",
       "Project" : "cc_slurm_pyxis_enroot",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_slurm_nhc:default:1.0.0" : {
@@ -120,7 +120,7 @@
       "Spec" : "default",
       "Name" : "cc_slurm_nhc:default:1.0.0",
       "Project" : "cc_slurm_nhc",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_misc_ndv4:default:1.0.0" : {
@@ -128,7 +128,7 @@
       "Spec" : "default",
       "Name" : "cc_misc_ndv4:default:1.0.0",
       "Project" : "cc_misc_ndv4",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_sunrpc_max_slots:default:1.0.0" : {
@@ -136,7 +136,7 @@
       "Spec" : "default",
       "Name" : "cc_sunrpc_max_slots:default:1.0.0",
       "Project" : "cc_sunrpc_max_slots",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     },
     "cc_inflectionai:default:1.0.0" : {
@@ -144,7 +144,7 @@
       "Spec" : "default",
       "Name" : "cc_inflectionai:default:1.0.0",
       "Project" : "cc_inflectionai",
-      "Locker" : "Inflection Azure Subscription-storage",
+      "Locker" : "NOT-SET",
       "Version" : "1.0.0"
     }
   },
