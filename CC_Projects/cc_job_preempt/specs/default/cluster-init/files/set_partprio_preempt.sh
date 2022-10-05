@@ -15,6 +15,6 @@ EOF
 sudo cp /tmp/slurm.conf /sched/slurm.conf
 rm /tmp/slurm.conf
 
-sudo sed 's/PartitionName=hpc.*/& PreemptMode=OFF Hidden=True/' /sched/cyclecloud.conf
+sudo sed -i 's/PartitionName=hpc.*/& PreemptMode=OFF Hidden=True/' /sched/cyclecloud.conf
 
 sudo systemctl restart slurmctld
