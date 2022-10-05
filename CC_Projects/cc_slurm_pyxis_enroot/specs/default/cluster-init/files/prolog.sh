@@ -22,5 +22,3 @@ if [ ! -c /dev/nvidia-uvm ]; then
         exit 1
     fi
 fi
-
-exit 0
