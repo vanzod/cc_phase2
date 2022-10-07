@@ -155,6 +155,9 @@ Autoscale = $Autoscale
         slurm.node_prefix = ${ifThenElse(NodeNamePrefix=="Cluster Prefix", StrJoin("-", ClusterName, ""), NodeNamePrefix)}
         slurm.use_nodename_as_hostname = $NodeNameIsHostname
 
+        [[[network-interface eth0]]]
+        AssociatePublicIpAddress = $UsePublicNetwork
+
     [[node nodearraybase]]
     Abstract = true
         [[[configuration]]]
