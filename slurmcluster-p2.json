@@ -99,6 +99,14 @@
       "Project" : "cc_sunrpc_max_slots",
       "Locker" : "NOT-SET",
       "Version" : "1.0.0"
+    },
+    "cc_quota_check:default:1.0.0" : {
+      "Order" : 10300,
+      "Spec" : "default",
+      "Name" : "cc_quota_check:default:1.0.0",
+      "Project" : "cc_quota_check",
+      "Locker" : "NOT-SET",
+      "Version" : "1.0.0"
     }
   },
   "HPCImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
