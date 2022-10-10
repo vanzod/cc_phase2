@@ -107,6 +107,14 @@
       "Project" : "cc_quota_check",
       "Locker" : "NOT-SET",
       "Version" : "1.0.0"
+    },
+    "cc_slurm_pyxis_enroot:default:1.0.0" : {
+      "Order" : 10400,
+      "Spec" : "default",
+      "Name" : "cc_slurm_pyxis_enroot:default:1.0.0",
+      "Project" : "cc_slurm_pyxis_enroot",
+      "Locker" : "NOT-SET",
+      "Version" : "1.0.0"
     }
   },
   "HPCImageName" : "microsoft-dsvm:ubuntu-hpc:1804:18.04.2021120101",
