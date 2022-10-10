@@ -29,10 +29,9 @@ if is_slurm_controller; then
    install_plugstack
    install_prolog
    systemctl restart slurmctld
-elif is_slurm_node; then
-   link_plugstack
-   systemctl restart slurmd
 else
    link_plugstack
+   # Do not restart slurmd on login nodes
+   systemctl list-units --full -all | grep -q slurmd && systemctl restart slurmd
 fi
 

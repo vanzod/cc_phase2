@@ -2,7 +2,7 @@
 
 source $CYCLECLOUD_SPEC_PATH/files/common_functions.sh
 
-if is_slurm_node; then
+if ! is_slurm_controller; then
     while [ ! -f /etc/sysconfig/slurmd ]
     do
         sleep 2
@@ -19,6 +19,6 @@ PMIX_SYSTEM_TMPDIR=/var/empty
 PMIX_MCA_gds=hash
 HWLOC_COMPONENTS=-opencl
 EOF
-        systemctl restart slurmd
+        systemctl list-units --full -all | grep -q slurmd && systemctl restart slurmd
     fi
 fi

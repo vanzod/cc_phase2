@@ -6,7 +6,7 @@ ENROOT_VERSION_FULL=${1:-3.4.0-1}
 ENROOT_VERSION=${ENROOT_VERSION_FULL%-*}
 
 # Install enroot RPM packages on compute nodes
-if is_slurm_node; then
+if ! is_slurm_controller; then
 
     cd /tmp
 
