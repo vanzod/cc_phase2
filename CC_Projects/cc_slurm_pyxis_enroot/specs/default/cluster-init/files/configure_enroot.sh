@@ -13,7 +13,7 @@ function create_mountpoints() {
 }
 
 # Only in compute nodes
-if ! is_slurm_controller; then
+if is_slurm_node; then
    create_enroot_config
    create_mountpoints
 fi
