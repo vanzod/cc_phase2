@@ -167,12 +167,12 @@
   "NFSAddress" : "NOT-SET",
   "NFSType" : "External",
   "NFSSharedExportPath" : "/shared",
-  "NFSSharedMountOptions" : "rw,hard,rsize=262144,wsize=262144,nconnect=8,vers=4,tcp",
+  "NFSSharedMountOptions" : "rw,hard,rsize=262144,wsize=262144,nconnect=8,sec=sys,vers=4.1,tcp",
   "About shared" : null,
   "AdditionalNAS" : true,
   "AdditonalNFSAddress" : "NOT-SET",
   "AdditionalNFSExportPath" : "NOT-SET",
-  "AdditionalNFSMountOptions" : "rw,hard,rsize=262144,wsize=262144,nconnect=8,vers=4,tcp",
+  "AdditionalNFSMountOptions" : "rw,hard,rsize=262144,wsize=262144,nconnect=8,sec=sys,vers=4.1,tcp",
   "AdditionalNFSMountPoint" : "/scratch",
   "Additional NFS Mount Readme" : null
 }
