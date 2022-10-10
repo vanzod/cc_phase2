@@ -35,3 +35,4 @@ else
    systemctl list-units --full -all | grep -q slurmd && systemctl restart slurmd
 fi
 
+exit 0
