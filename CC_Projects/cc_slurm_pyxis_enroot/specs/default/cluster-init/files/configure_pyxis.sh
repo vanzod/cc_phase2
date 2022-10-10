@@ -29,7 +29,7 @@ if is_slurm_controller; then
    install_plugstack
    install_prolog
    systemctl restart slurmctld
-else if is_slurm_node; then
+elif is_slurm_node; then
    link_plugstack
    systemctl restart slurmd
 else
