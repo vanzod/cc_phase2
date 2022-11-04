@@ -60,6 +60,14 @@
       "Project" : "cc_quota_check",
       "Locker" : "NOT-SET",
       "Version" : "1.0.0"
+    },
+    "cc_slurmrestd_ubuntu1804:default:1.0.0" : {
+      "Order" : 10600,
+      "Spec" : "default",
+      "Name" : "cc_slurmrestd_ubuntu1804:default:1.0.0",
+      "Project" : "cc_slurmrestd_ubuntu1804",
+      "Locker" : "iaislurm_cred-storage",
+      "Version" : "1.0.0"
     }
   },
   "Autoscale" : false,
